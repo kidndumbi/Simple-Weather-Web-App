@@ -1,5 +1,4 @@
 
-
 class Weather {
 
     constructor(config, city, state){
@@ -17,6 +16,9 @@ class Weather {
         const data = await response.json();
         return data.current_observation;
     }
+
+
+    // change location
 
     changeLocation(city, state){
 
